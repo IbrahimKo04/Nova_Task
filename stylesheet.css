@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Space;
+
+    src: url(ROMALIKA.otf);
+
+}
+@font-face {
+    font-family: two;
+    src: url(Manrope-VariableFont_wght.ttf);
+}
+    body{
+    background-color: rgb(36, 35, 35);
+    background-image: image-set(url(wp10586595.webp));
+    background-size: 100%;
+}
+
+
+#bar{
+    color: black;
+    box-shadow: 0px 0px 5px 0px;
+    background-color: rgb(32, 41, 41);
+    margin:none;
+    width: 70%;
+    height:10;
+    border-radius: 50px;
+    align-content: center;
+    display: flex;
+    justify-content:space-between;
+    overflow:auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-image: image-set(url(ursa-major-ursa-minor-constellations_23-2150028893.avif));
+}
+.items{
+    display:flex;
+    
+    margin-right: 5px;
+    align-content: center;
+    align-self: center;
+    padding: 3px;
+    font-size: 25px;
+    
+}
+a{
+    margin-right: 30px;
+    color: rgb(202, 181, 152);
+    text-decoration: none;
+    font-family: two;
+    letter-spacing: 1px;
+
+    
+    
+}
+
+a:hover{
+    color: deepskyblue;
+    font-size:30px;
+    letter-spacing: 2px;
+    transition: 200ms ease-in-out;
+}
+a:active{
+    color: blueviolet;
+    transition: 200ms;
+}
+img{
+    height: 70px;
+    margin-left: 50px;
+}
+
+
+
+#title{
+    font-weight: 200;
+    color: aquamarine;
+}
