@@ -8,7 +8,27 @@
     font-family: two;
     src: url(Manrope-VariableFont_wght.ttf);
 }
-    body{
+@font-face{
+    font-family: Garet Heavy;
+    src: url(Spacetype\ -\ Garet\ Heavy.otf);
+}
+@font-face{
+    font-family: Garet;
+    src: url(Spacetype\ -\ Garet\ Book.otf);
+}
+
+@keyframes Universe {
+    0%{background-position:0% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:0% 0%}
+}
+@keyframes magic{
+    0%{transform:translate(0px,0px);}
+    50%{transform:translate(0px,15em);}
+    100%{transform:translate(0px,-0px);}
+
+}
+body{
     background-color: rgb(36, 35, 35);
     background-image: image-set(url(wp10586595.webp));
     background-size: 100%;
@@ -58,19 +78,144 @@ a:hover{
     font-size:30px;
     letter-spacing: 2px;
     transition: 200ms ease-in-out;
+    background-color: rgb(37, 69, 95);
+    padding:10px;
+    border-radius: 100px;
+    
 }
 a:active{
     color: blueviolet;
     transition: 200ms;
 }
-img{
+#nova{
     height: 70px;
     margin-left: 50px;
 }
 
 
 
-#title{
+#heading{
     font-weight: 200;
-    color: aquamarine;
+    display: flex;
+    align-content: center;
+    background-color: rgba(43, 50, 56, 0);
+    box-shadow: #1a98ff1e 0px 0px 130px;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 15em;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 100%;
 }
+
+h1{
+    font-family: Garet Heavy;
+    color: black;
+    font-size:8em;
+    text-shadow: cornflowerblue 0px 0px 10px;
+    
+    
+    
+    
+}
+h1:hover{
+    color:grey;
+    transition: 200ms ease-in-out ;
+    cursor: pointer;
+}
+#circle{
+    height: 200px;
+    width: 200px;
+    translate: 0px 45px ;
+    background-color: bisque;
+    margin:1em;
+    border-radius:100%;
+
+    background: linear-gradient(176deg, #2e0c81, #0c4c81, #0c8125);
+    background-size: 600% 600%;
+  
+    animation: Universe 29s ease infinite;
+    box-shadow: 0 0 25px 10px white;
+}
+#circle:hover{
+    animation-duration: 2000ms;
+    transition: 10ms ease-in-out;
+}
+.Home{
+    margin-top: 20em;
+    margin-left: 4em;
+    margin-right:20em;
+    padding:1em;
+    background-color: rgba(76, 0, 130, 0.363);
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: #0c4c81;
+}
+.Home:hover{
+    color:azure;
+    transition: 3ms;
+}
+
+    
+
+h2{
+    color: skyblue;
+    font-size: 2.2em;
+    text-shadow:0px 0px 3px black;
+    font-family: Garet;
+}
+h2:hover{
+    color:darkred;
+    transition: 20ms;
+    cursor: default;
+}
+.rocket{
+    animation: magic 3s ease-in-out infinite; 
+    height: 1em;
+    width:1em;
+    margin-left:5em;
+
+}
+.text-1{
+    font-size: 1.25em;
+    color:aqua;
+    letter-spacing: 0.5px;
+    font-family:sans;
+    display:flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-right: 5em;
+
+    
+}
+.About{
+    margin-top: 15em;
+    margin-left: 10em;
+    margin-right:4em;
+    padding:1em;
+    background-color: rgba(76, 0, 130, 0.363);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border: #0c4c81;
+    padding-bottom: 0;
+}
+
+
+#about{
+    text-align: right;
+}
+.text-2{
+    font-size: 1.25em;
+    color:aqua;
+    letter-spacing: 0.5px;
+    font-family:sans;
+    display:flex;
+    justify-content: space-between;
+    text-align: justify;
+    margin-left: 5em;
+}
+
