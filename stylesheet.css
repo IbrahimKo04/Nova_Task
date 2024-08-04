@@ -10,11 +10,11 @@
 }
 @font-face{
     font-family: Garet Heavy;
-    src: url(Spacetype\ -\ Garet\ Heavy.otf);
+    src: url(Spacetype-GaretHeavy.otf);
 }
 @font-face{
     font-family: Garet;
-    src: url(Spacetype\ -\ Garet\ Book.otf);
+    src: url(Spacetype-GaretBook.otf);
 }
 
 @keyframes Universe {
