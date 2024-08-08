@@ -34,7 +34,9 @@
         
     }
 
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(36, 35, 35);
     background-image: image-set(url(wp10586595.webp));
@@ -93,6 +95,7 @@ a:hover{
 a:active{
     color: blueviolet;
     transition: 200ms;
+    scroll-behavior: smooth;
 }
 #nova{
     height: 70px;
@@ -129,6 +132,8 @@ h1:hover{
     color:grey;
     transition: 200ms ease-in-out ;
     cursor: pointer;
+    font-size: 140px;
+    text-shadow: #2e0c81 0px 0px 25px;
 }
 #circle{
     height: 200px;
@@ -164,8 +169,8 @@ h1:hover{
 }
 
 .Home:hover{
-    color:azure;
-    transition: 3ms;
+    background-color:rgba(152, 0, 253, 0.61);
+    transition: 300ms;
 }
 
     
@@ -216,7 +221,10 @@ h2:hover{
     animation-timeline: view();
 }
 
-
+.About:hover{
+    background-color:rgba(152, 0, 253, 0.61);
+    transition: 300ms;
+}
 
 #about{
     text-align: right;
@@ -230,6 +238,11 @@ h2:hover{
     justify-content: space-between;
     text-align: justify;
     margin-left: 5em;
+}
+
+#planet{
+    display:flex;
+
 }
 
 .foot{
